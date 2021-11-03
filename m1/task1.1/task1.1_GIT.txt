@@ -1,0 +1,16 @@
+582a811 HEAD@{0}: merge develop: Fast-forward
+1d76fab HEAD@{1}: checkout: moving from master to master
+1d76fab HEAD@{2}: checkout: moving from develop to master
+582a811 HEAD@{3}: commit (merge): conflict branch
+2f82b30 HEAD@{4}: merge images: Fast-forward
+c176171 HEAD@{5}: checkout: moving from styles to develop
+9fa0f7e HEAD@{6}: commit: change index.html in styles branch
+da9c3a0 HEAD@{7}: commit: add styles branch and folder with files
+c176171 HEAD@{8}: checkout: moving from develop to styles
+c176171 HEAD@{9}: checkout: moving from images to develop
+2f82b30 HEAD@{10}: commit: change index.html with images source in images branch
+cac4e8b HEAD@{11}: commit: add images branch with images folder and files
+c176171 HEAD@{12}: checkout: moving from develop to images
+c176171 HEAD@{13}: commit: add index.html empty file in develop branch
+1d76fab HEAD@{14}: checkout: moving from master to develop
+1d76fab HEAD@{15}: commit (initial): init commit
