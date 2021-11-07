@@ -12,7 +12,7 @@ git config --global core.editor nano
 ```
 ## Зареєтрувались на GitHub та створили приватний репозиторій "DevOps_online_Vinnytsia_2021Q4"
 Описувати цей процес не буду, бо тут все лементарно.Результат на скріні:
-![N](https://wdfiles.ru/plugins/imageviewer/site/thumb.php?s=3b6881)
+![](https://drive.google.com/uc?export=view&id=1i2TlfvhSjK6euuPbaHf6oo0jV84C3ljn)
 
 ## Клонували репозиторій на локальний ПК
 ```sh
@@ -94,13 +94,13 @@ git commit -m "merge develop into master"
 ```sh
 git log --all --graph --pretty=format:'%Cred%h%Creset -%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 ```
-![](https://github.com/sergiy-vasiliyk/DevOps_online_Vinnytsia_2021Q4/blob/master/m1/task1.1/images/gitlog.png)
+![](https://drive.google.com/uc?export=view&id=1-7kEEX7ubTU6H6qaToS1Q0cE8E-fIt6P)
 
 ## Відправили всі зміни на GitHub та перевірили їх наявність на сайті
 ```sh
 git push origin --all
 ```
-![N](https://github.com/sergiy-vasiliyk/DevOps_online_Vinnytsia_2021Q4/blob/master/m1/task1.1/images/github_new.png)
+![](https://drive.google.com/uc?export=view&id=1GDPdF1LZr2KBmzhDO0EPdqjE552seLLk)
 
 
 ## Виконали "git reflog" та зберегли результат в task1.1_GIT.txt, який потім перекинули в локальний репозиторій і запушили на gitlab.
