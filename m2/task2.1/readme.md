@@ -10,8 +10,8 @@
 ### Коротко опишіть основні відмінності найпопулярніших гіпервізорів.
 Різниця між гіпервізорами в тому, що одні працюють безпосередньо на рівні апаратної частини хоста (Hyper-v, ESX, Xen), а інші запускаються на рівні операційної системи хоста (Vmware, VirtualBox, MS Virtual PC). 
 
-## Частина 2. Практична робота
-З офіційного сайту https://www.virtualbox.org/ було завантадено та встановлено останню версію VirtualBox для Windows.
+## Частина 2. Практична робота. VirtualBox
+З офіційного сайту https://www.virtualbox.org/ було завантажено та встановлено останню версію VirtualBox для Windows.
 Також було завантажено останню версію Ubuntu 20.04 для проведення практичних робіт.
 ### Створення нової віртуальної машини з Ububntu 20.04
 При створенні віртуальної машини ми вибирали ввели назву машини (VM1_Vasiliyk), тип ОС та надали мінімальні потрібні технічні характеристики (1 ядро, 1Гб оперативка та 10Гб жорсткого диску)
@@ -42,3 +42,12 @@
 ![](https://drive.google.com/uc?export=view&id=1DqoWIK5_jplM1621D1XegC4YeDhoeE9q)
 ![](https://drive.google.com/uc?export=view&id=10aOKAbHqOjTFBlrFe5rLu938c2mXqXWS)
 ![](https://drive.google.com/uc?export=view&id=1mnWhfKgqX2LPZEWMf9dIuOQ6M4DIn6ET)
+## Частина 3. Практична робота. Vagrant
+З офіційного сайту завантажили та встановили останню версію Vagrant для Windows. Налаштували змінну оточення VAGRANT_HOME. 
+Через PowerShell створили в корні диска С папку "Sergiy". Ініціалізували бокс (hashicorp/precise64) та запустили vagrand. З'эднались до нього по putty та перевірили актуальну дату.
+![](https://drive.google.com/uc?export=view&id=1DaLmpjpwZAAn6xDzhZW_Dnt8embNIGvk)
+### Зупинив та видалив віртуалку
+![](https://drive.google.com/uc?export=view&id=1XMNAmduhTsiFkfH5cVM_niTAbpqFZBXo)
+
+
+
