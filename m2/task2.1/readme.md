@@ -31,4 +31,14 @@
 ![](https://drive.google.com/uc?export=view&id=1fjFu7FWifUQE9ChzBKpnyFM1J7sZ6cSN)
 ### Налаштували та перевірили (за допомогою команди ping) роботу типи мережевих адаптерів
 ![](https://drive.google.com/uc?export=view&id=18HlGJveGZsX9wTDVh0eIfQjwWBCG1ng4)
-
+| Mode       | VM -> Host                | VM <- Host |VM1 <-> VM2| VM -> Net/LAN |VM -> Net/LAN
+| ------------- |:------------------:| -----:|-----:|-----:|-----:|
+| Host-only     | +    |+    | +   |- | -   |
+| Internal     | - |  -  |+| - |  -  |
+| Bridged  | + |  +  |+| + |  +  |
+| NAT     | + |  Port forward  |-| + |  Port forward  |
+| NATservice     | + |  Port forward  |+| + |  Port forward  
+### "Поклацали" віртуалку за допомогою CLI (запустили, подивлись інформацію, вимкнули та ін.)
+![](https://drive.google.com/uc?export=view&id=1DqoWIK5_jplM1621D1XegC4YeDhoeE9q)
+![](https://drive.google.com/uc?export=view&id=10aOKAbHqOjTFBlrFe5rLu938c2mXqXWS)
+![](https://drive.google.com/uc?export=view&id=1mnWhfKgqX2LPZEWMf9dIuOQ6M4DIn6ET)
