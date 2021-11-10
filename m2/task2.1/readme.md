@@ -48,6 +48,22 @@
 ![](https://drive.google.com/uc?export=view&id=1DaLmpjpwZAAn6xDzhZW_Dnt8embNIGvk)
 ### Зупинив та видалив віртуалку
 ![](https://drive.google.com/uc?export=view&id=1XMNAmduhTsiFkfH5cVM_niTAbpqFZBXo)
+### Створив Vagrant box з існуючої VM1_Vasiliyk
+Для унікальності бокса встановив на віртуалку VM1_Vasiliyk веб-сервер та зробив легенький index.html
+![](https://drive.google.com/uc?export=view&id=1GUXtIIcmUcAZys1PH-2cjOWW2aNYMWzc)
+### Перевіряємо список боксів та впевнюємось, що наш бокс створено
+```sh
+vagrant box list
+```
+![](https://drive.google.com/uc?export=view&id=1QXz3grEuEcqppbUZpSAgmwqNymtCfgAt)
+### Запускаємо наш бокс для перевірки
+```sh
+vagrant up
+```
+![](https://drive.google.com/uc?export=view&id=1rslt1hptgL8ElVpDBsmCPgatSopg2H5i)
+
+
+
 
 
 
