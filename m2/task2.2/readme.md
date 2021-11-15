@@ -32,5 +32,15 @@
 ![](https://drive.google.com/uc?export=view&id=1apFE_qmGjcByAp_bfu4uw0V2ZOre06zf)
 ![](https://drive.google.com/uc?export=view&id=1WSHVK7SMR3SwU3y0ASu8utzU24_2I_My)
 
-### Створили Bucket
+### Створили Bucket 
 ![](https://drive.google.com/uc?export=view&id=1rJTTjtBEO23AmxKKXbxjV8VxEZk22QiB)
+
+### Створили AWS IAM користувача, налаштували пыдключення по CLI до бакета та створили в ньому файл через CLI  
+![](https://drive.google.com/uc?export=view&id=1rJTTjtBE79hAmxKKXbxjV5VxEZk22QiB)
+
+### Переглянули можливості створення ip-адреси власного домена, доменного імені та їх прив'язки між собою. Створили Elastic IP-адресу та підключили її на створений раніше instance. Переглянули можливості реєстрації доменного імені
+![](https://drive.google.com/uc?export=view&id=1N6x4n9o67BaBI4xlFONXEDPhv1wEpTsS)
+![](https://drive.google.com/uc?export=view&id=1F4hIhocLR7A5PtY8AiB0mgE9CwQlKg87)
+![](https://drive.google.com/uc?export=view&id=1tIE27KyWojukXaEax-BVkQr7rq7Gl5lN)
+
+
