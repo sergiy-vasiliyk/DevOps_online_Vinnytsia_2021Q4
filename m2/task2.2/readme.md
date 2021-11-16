@@ -36,11 +36,25 @@
 ![](https://drive.google.com/uc?export=view&id=1rJTTjtBEO23AmxKKXbxjV8VxEZk22QiB)
 
 ### Створили AWS IAM користувача, налаштували підключення по CLI до бакета та створили в ньому файл через CLI  
-![](https://drive.google.com/uc?export=view&id=1rJTTjtBEO23AmxKKXbxjV8VxEZk22QiB)
+![](https://drive.google.com/uc?export=view&id=1G_LKLQFCrZdwTetqQj3i7xSDBgEejqOX)
 
 ### Переглянули можливості створення ip-адреси власного домена, доменного імені та їх прив'язки між собою. Створили Elastic IP-адресу та підключили її на створений раніше instance. Переглянули можливості реєстрації доменного імені
 ![](https://drive.google.com/uc?export=view&id=1N6x4n9o67BaBI4xlFONXEDPhv1wEpTsS)
 ![](https://drive.google.com/uc?export=view&id=1F4hIhocLR7A5PtY8AiB0mgE9CwQlKg87)
 ![](https://drive.google.com/uc?export=view&id=1tIE27KyWojukXaEax-BVkQr7rq7Gl5lN)
+
+### Встановили Docker на істанс, створили образ з Hello world
+![](https://drive.google.com/uc?export=view&id=1dvI84xbCtfXBDXxPg7u8dpa3X-HjROdG)
+![](https://drive.google.com/uc?export=view&id=1B9faRtJ993X72UCwh7apsy7W1CVo2loP)
+
+### Розгорнули контейнер Docker на Amazon Elastic Container Service (Amazon ECS). Створили кластер і запустіть онлайн-демонстраційну програму
+![](https://drive.google.com/uc?export=view&id=1axwEpdS_Gtnp9lOb1buFLnURgYoJaRc1)
+![](https://drive.google.com/uc?export=view&id=1wcP2vhrN-BBY43VVw0GKxB9YPm5LJAT5)
+
+### Створили статичний вебсайт (sergiy-vasiliyk.pa.ua) на Amazon S3 з інформацією про себе.
+![](https://drive.google.com/uc?export=view&id=1EzRvFVpNc17MuzIwai4v-Q7CyH2pf57V)
+
+
+
 
 
