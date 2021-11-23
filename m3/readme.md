@@ -24,7 +24,7 @@
 ### Для реалізації мережі Internet використали мережу з адресою (D+10).M.Y.0/24, поділивши її на підмережі з префіксом /26.  
 ![](https://drive.google.com/uc?export=view&id=1Ch9xd_4OoMQJfIbkFb3b8Y23SfONyjH6)
 
-### Перевірити зв'язок комп’ютерів з власними шлюзами за допомогою команди ping.
+### Перевірили зв'язок комп’ютерів з власними шлюзами за допомогою команди ping.
 ![](https://drive.google.com/uc?export=view&id=15ZX86wF04I6t_bk4a-vVxTIwR3MorEKl)
 
 ### Перевірили зв’язок між серверами за допомогою команди ping та маршрут проходження пакета за допомогою tracert.
@@ -46,4 +46,25 @@
 ![](https://drive.google.com/uc?export=view&id=1jV6va8CAPZQMM-mhKZEMj96B6E9IEFCj)
 
 ## Task3.4 – Налаштування DHCP, DNS, NAT
+### Налаштували DHCP Pool, вказавши початкову адресу 10.Y.D.10 та адресу Default Gateway – адресу інтерфейсу GE0/0 Router ISP1.
+![](https://drive.google.com/uc?export=view&id=1RH2ZUpiRjD6pwfi_Hp5KwV-5QWX8e1jJ)
+
+### Перевірили працездатність сервісу, поставивши в налаштуваннях Client1 та Client2 DHCP.
+![](https://drive.google.com/uc?export=view&id=1FGHBkCLiY-4cSxQAnVNDrAKf6BgWpudU)
+
+### Налаштували DHCP на Home Router та перевірили працездатність на Client3
+![](https://drive.google.com/uc?export=view&id=1y2i_526SL_OoMltSscWWzUeH9lCy764V)
+![](https://drive.google.com/uc?export=view&id=16pqinjyti51ZhxM1puA0li9GDc7Wtt_Z)
+
+### Для налаштування і перевірки роботи DNS сервісу призначили WebServer1 та WebServer2 доменні імена domain1.com та domain2.com відповідно.
+![](https://drive.google.com/uc?export=view&id=1PQ7A4gEzwL69bDfL0Qv6lpiE7p-4zqBT)
+
+### Додали до налаштувань DHCP серверів адресу DNS сервера та оновили налаштування на клієнтах.
+![](https://drive.google.com/uc?export=view&id=1OK7CGCqcIHOkcgnWEj6ui4nmVXxIM4iw)
+![](https://drive.google.com/uc?export=view&id=1Da3JdOV-zgKQKg6s04pZDL81oFtPcH5q)
+
+### Перевірили працездатність DNS сервера шляхом відправки ping з Client на доменне ім’я.
+![](https://drive.google.com/uc?export=view&id=1a-fn6wZeFJVvS2s4vVYzyX7ScGMqUWdy)
+
+
 
