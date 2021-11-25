@@ -41,9 +41,10 @@
 Пінг не проходить. Щоб виходити з однієї мережі і заходити в іншу потрібен маршрутизатор.
 
 ## Task3.3 – Налаштування маршрутизації
-
-### Перевірили зв'язок, пропінгувавши Web Server мережі Data Center з ПК Client1 мережі Enterprise
+### Налаштували мережу, згідно таблиці.
 ![](https://drive.google.com/uc?export=view&id=1jV6va8CAPZQMM-mhKZEMj96B6E9IEFCj)
+### Перевірили зв'язок, пропінгувавши Web Server мережі Data Center з ПК Client1 мережі Enterprise
+![](https://drive.google.com/uc?export=view&id=1cjtBPwlHri11BxoG9gzZ8pakBv9Z49HV)
 
 ## Task3.4 – Налаштування DHCP, DNS, NAT
 ### Налаштували DHCP Pool, вказавши початкову адресу 10.Y.D.10 та адресу Default Gateway – адресу інтерфейсу GE0/0 Router ISP1.
