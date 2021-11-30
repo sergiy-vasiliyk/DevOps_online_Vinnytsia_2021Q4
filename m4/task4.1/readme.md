@@ -17,6 +17,7 @@ CREATE DATABASE rent_car;
 ### Створили таблиці в базі даних
 
 ![](https://drive.google.com/uc?export=view&id=1EIquurRwv29CTt28tvJYGisGvTSJVSuu)
+
 ![](https://drive.google.com/uc?export=view&id=10N429SxTT9uvs-G06CJl8bZ0GJL5Om24)
 
 ### Заповнили всі таблиці даними
