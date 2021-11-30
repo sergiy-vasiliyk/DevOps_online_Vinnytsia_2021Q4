@@ -1,5 +1,5 @@
-# Виконання домашнього завдання task4
-## Task4.1 – Адміністрування баз даних
+# Виконання домашнього завдання task4.1 – Адміністрування баз даних
+## Частина 1
 ### Встановили на Ubuntu MySQL
 ``` 
 apt install mysql-server
@@ -41,5 +41,10 @@ CREATE DATABASE rent_car;
 ![](https://drive.google.com/uc?export=view&id=13HiWfJgpeJEPtei9D2up5hqLiOOuh2wl)
 ![](https://drive.google.com/uc?export=view&id=1xe_bjKI40nuacoqLkyU96zA8PQr3EOog)
 
+## Частина 2
 
+### Зробили резервну копію нашої бази даних
+![](https://drive.google.com/uc?export=view&id=1Pk8QhlSD3R7Bd_h1l6kNvKKmORT6Lrq9)
+### Видалили таблицю Cars та відновили базу даних з резервної копії
+![](https://drive.google.com/uc?export=view&id=1LetIloLJJ26R_5kvJIZsGGSOa9oYMnN8)
 
