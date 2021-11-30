@@ -58,5 +58,17 @@ CREATE DATABASE rent_car;
 ### Створили дамп бази за допомогою Снепшотів RDS
 ![](https://drive.google.com/uc?export=view&id=1XFiomJ-XWlAM-2IWOUBc5_k6LeFTOMl2)
 
+## Частина 3
+
+### На Amazon DynamoDB створили таблицю Cars
+![](https://drive.google.com/uc?export=view&id=1rJSTUwihSrjKneaX3M3haQBswuA0DCOU)
+![](https://drive.google.com/uc?export=view&id=1habuVT8ZxXeeLqW8Qck5pfmKfr-WpSrM)
+
+### Внесли дані в створену таблицю за допомогою інтерфейсу DynamDB
+![](https://drive.google.com/uc?export=view&id=10SscgafrZ3dPzeeBPVkfys_gqH170Yn5)
+
+### Виконали вибырку за допомогою кнопок Scan та Query
+![](https://drive.google.com/uc?export=view&id=1h1dik25uWR6EbiUJ8LuIQ3bbUrrzOFDR)
+
 
 
