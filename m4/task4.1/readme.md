@@ -48,3 +48,15 @@ CREATE DATABASE rent_car;
 ### Видалили таблицю Cars та відновили базу даних з резервної копії
 ![](https://drive.google.com/uc?export=view&id=1LetIloLJJ26R_5kvJIZsGGSOa9oYMnN8)
 
+### Перенесемо нашу базу на AWS RDS. Для цього створили базу даних vasiliyk-db через інтерфейс RDS, з'єднались з нею через CLI і створили базу даних rent_car, в яку будемо відновлювати локальну базу.
+![](https://drive.google.com/uc?export=view&id=1vZ1uLZyZ5n5E_hgwgMXbbT9DPnY2646P)
+![](https://drive.google.com/uc?export=view&id=1jAcgLRJCk_sS6spECI1q2lmXBEwNnxNe)
+### Відновили базу даних в AWS RDS з локальної резервної копії
+![](https://drive.google.com/uc?export=view&id=1hSQpz3Clqk7iub-v7xIacbjhmfdx3fk0)
+### Для детальної перевірки перенесення бази на RDS виконали вибірку даних через оператора SELECT з використанням WHERE, ORDER BY and GROUP BY
+![](https://drive.google.com/uc?export=view&id=1raRUh6jf-0fQzQGd9T4PzjuHeXIiKBK5)
+### Створили дамп бази за допомогою Снепшотів RDS
+![](https://drive.google.com/uc?export=view&id=1XFiomJ-XWlAM-2IWOUBc5_k6LeFTOMl2)
+
+
+
