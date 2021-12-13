@@ -179,6 +179,6 @@ GID - ідентифікатор групи.
 
 
 ### 17. Для запуску коммандних скриптів потрібен атрибут "х" - надання права виконувати файли.
-![](https://drive.google.com/uc?export=view&id=1gTlXfWJ5GZh5jl7pOtte2xD_RhHbcVAy)
+
 
 
