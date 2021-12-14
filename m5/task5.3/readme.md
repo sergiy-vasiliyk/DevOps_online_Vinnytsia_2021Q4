@@ -1,4 +1,5 @@
 # Виконання домашнього завдання task5.3 – Linux Essentials
+## Part 1
 ### 1. Скільки станів може мати процес у Linux?
 - Running/Runnable (R) - процес або запущено, або готовий до запуску.
 - Interruptible Sleep (S)- заблокований стан процесу, який очікує на подію або сигнал від іншого процесу
@@ -173,6 +174,44 @@ kill -сигнал pid_процесса
 
 
 ![](https://drive.google.com/uc?export=view&id=1ZYsPbiqS34bonDFoRxU9FurZoysIM5tl)
+
+
+## Part 2
+### 1. Підключились по ssh з Windows до Linux
+##### Для підключення до Ububntu з Windows через ssh запускаємо cmd.exe та вводимо ssh user@host
+![](https://drive.google.com/uc?export=view&id=1mOKZpBN7bpaWG0LV7OeNZbSoE5vPGfqP)
+##### Однією з чаcто використаних команд є ssh-keygen - генерує ключі авторизації.
+![](https://drive.google.com/uc?export=view&id=1L512MFWrIo6Cbt0VOW_HIMo-VBo4mKwU)
+##### Наступна команда scp - для копіювання даних між хостовою та віддаленою машинами.
+![](https://drive.google.com/uc?export=view&id=126ydJ8NOmUpIbDI1ugSp6sztVtCoV7wH)
+
+### 2. Реалізували основні параметри SSH для підвищення безпеки з'єднання клієнт-сервер
+##### Для безпеки з'єднання по ssh потрібно:
+- змінити порт підключення
+![](https://drive.google.com/uc?export=view&id=1qh5dXDO6Cz79s1mmLjVto25aEZpvaywU)
+- вимкнути логіни root
+![](https://drive.google.com/uc?export=view&id=18RVupLkt60oyDhtBRbpFDYTescGrQd1h)
+- відхиляти запити на підключення без паролів
+![](https://drive.google.com/uc?export=view&id=1hN2t0nZfaaCdfPkmDHu8tfHF1eYYdZ88)
+- дозволити вхід лише певним користувачам
+![](https://drive.google.com/uc?export=view&id=1Rep29uFAqctQGAUMXPny33QKzoht5I1o)
+- використовувати ключі замість пароля.
+![](https://drive.google.com/uc?export=view&id=1L512MFWrIo6Cbt0VOW_HIMo-VBo4mKwU)
+
+##### Всі ці дії, крім ключів, налаштовуються в файлі `/etc/ssh/sshd_config`.
+##### Піcля змін потрібно перезапустити службу - `service sshd restart`
+
+### 3. Перерахували варіанти вибору ключів для шифрування в SSH.
+#### Для SSH можуть бути наступні алгоритми шифрування:
+- rsa
+![](https://drive.google.com/uc?export=view&id=1npvfLyGkjWPKDlV1xAbp_mtvvSIXRMHo)
+- dsa
+![](https://drive.google.com/uc?export=view&id=1fcH904l0vnSeE48t-eH0sF0joYkNa0-p)
+- ecdsa
+![](https://drive.google.com/uc?export=view&id=1lYqzazYVLYXnKxiMdpj-d4S4DDgdTQJ8)
+- ed25519
+![](https://drive.google.com/uc?export=view&id=1vw9wvUzhnTd_28m3x3ybP-qLi6MlKk9a)
+
 
 
 
