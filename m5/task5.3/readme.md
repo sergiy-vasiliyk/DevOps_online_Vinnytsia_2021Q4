@@ -210,18 +210,21 @@ kill -сигнал pid_процесса
 ##### Всі ці дії, крім ключів, налаштовуються в файлі `/etc/ssh/sshd_config`.
 ##### Піcля змін потрібно перезапустити службу - `service sshd restart`
 
-### 3. Перерахували варіанти вибору ключів для шифрування в SSH.
+### 3. Перерахували варіанти вибору ключів для шифрування в SSH
 #### Для SSH можуть бути наступні алгоритми шифрування:
 - rsa
+
 ![](https://drive.google.com/uc?export=view&id=1npvfLyGkjWPKDlV1xAbp_mtvvSIXRMHo)
+
 - dsa
+
 ![](https://drive.google.com/uc?export=view&id=1fcH904l0vnSeE48t-eH0sF0joYkNa0-p)
+
 - ecdsa
+
 ![](https://drive.google.com/uc?export=view&id=1lYqzazYVLYXnKxiMdpj-d4S4DDgdTQJ8)
+
 - ed25519
+
 ![](https://drive.google.com/uc?export=view&id=1vw9wvUzhnTd_28m3x3ybP-qLi6MlKk9a)
-
-
-
-
 
