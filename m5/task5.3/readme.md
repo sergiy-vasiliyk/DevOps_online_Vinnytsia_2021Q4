@@ -188,14 +188,23 @@ kill -сигнал pid_процесса
 ### 2. Реалізували основні параметри SSH для підвищення безпеки з'єднання клієнт-сервер
 ##### Для безпеки з'єднання по ssh потрібно:
 - змінити порт підключення
+
 ![](https://drive.google.com/uc?export=view&id=1qh5dXDO6Cz79s1mmLjVto25aEZpvaywU)
+
 - вимкнути логіни root
+
 ![](https://drive.google.com/uc?export=view&id=18RVupLkt60oyDhtBRbpFDYTescGrQd1h)
+
 - відхиляти запити на підключення без паролів
+
 ![](https://drive.google.com/uc?export=view&id=1hN2t0nZfaaCdfPkmDHu8tfHF1eYYdZ88)
+
 - дозволити вхід лише певним користувачам
+
 ![](https://drive.google.com/uc?export=view&id=1Rep29uFAqctQGAUMXPny33QKzoht5I1o)
+
 - використовувати ключі замість пароля.
+
 ![](https://drive.google.com/uc?export=view&id=1L512MFWrIo6Cbt0VOW_HIMo-VBo4mKwU)
 
 ##### Всі ці дії, крім ключів, налаштовуються в файлі `/etc/ssh/sshd_config`.
