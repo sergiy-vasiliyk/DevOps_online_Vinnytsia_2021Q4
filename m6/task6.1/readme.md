@@ -13,9 +13,11 @@
 ![](https://drive.google.com/uc?export=view&id=169bIgBiYVP0LTw4RNNDlk1fiazUjPrWK)
 ##### Зробимо мережеві налаштування для наших VM.
 - VM1
+
 ![](https://drive.google.com/uc?export=view&id=1O5nxJIVIHoUA7aZrFKPIc25JOyKpOHFG)
 ![](https://drive.google.com/uc?export=view&id=1UKIH2bY--75Zldd-DJeYvcRljR4H9BYi)
 - VM2
+
 ![](https://drive.google.com/uc?export=view&id=1i7jcpiLaTzPUBZpGw-rBUA_oRom1qJQj)
 ![](https://drive.google.com/uc?export=view&id=1wUM5jTHJtC83ftwPO1QvoOqZlcNYd1Dy)
 
@@ -25,6 +27,7 @@
 ##### Зв'язок є! 
 ##### Тепер налаштуємо доступ до інтернету у VM2 через VM1.
 - Для цього в файлі /etc/sysctl.conf розкоментуємо стрічку "net.ipv4.ip_forward = 1" та перезавантажимо VM1 для прийняття змін.
+
 ![](https://drive.google.com/uc?export=view&id=1YzJeA4vej7FrU17O_W-T-9LFm1aVNZDl)
 - Та пропишемо налаштування маршруту:
  ```iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE```
