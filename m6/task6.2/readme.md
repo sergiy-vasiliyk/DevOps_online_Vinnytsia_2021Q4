@@ -13,14 +13,14 @@
 налаштували адреси і перезавантажили його ```systemctl restart ics-dhcp-server```:
 ![](https://drive.google.com/uc?export=view&id=1A2VHx-GgW4aN2VIR1GyxrC9DnynDsUoq)
 
-і перевірили працездатність:
+та перевірили працездатність:
 ![](https://drive.google.com/uc?export=view&id=1GiQ3AY0lvlo_8e65kJGNByQUZSPJqmWx)
 
-- За допомогою DNSMASQ - завантажили, налаштували адреси і перезавантажили його ```systemctl restart dnsmsq```:
+- За допомогою DNSMASQ - завантажили та налаштували адреси:
 
 ![](https://drive.google.com/uc?export=view&id=1K--raLKI6YFR_95hfJuIgWdU3Mf-4NhW)
 
-перевірили працездатність:
+перезавантажили його ```systemctl restart dnsmsq``` та перевірили працездатність:
 ![](https://drive.google.com/uc?export=view&id=1NasJPe1F2bmNvlzesGgsriXXE3QofJdF)
 
 
@@ -32,5 +32,3 @@
 ##### Перевіримо роботу DNS сервера за допомогою команди ```ping```.
 
 ![](https://drive.google.com/uc?export=view&id=16kssX1azAuZTZnfn7NJr2JlSaqaNdN6j)
-
-
