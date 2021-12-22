@@ -7,15 +7,20 @@
 ### 2-3. Встановити і налаштувати DHCP сервер на VM1, а також перевірити їхню працездатність.
 ##### Є декілька методів створення та налашутвання DHCP серверу.
 - За допомогою ISC-DHPSERVER - завантажили, ввімкнули його:
+ 
 ![](https://drive.google.com/uc?export=view&id=1uV1QoD6zxaGlClIZJ0_WuaI_xE8jRgvK)
+
 налаштували адреси і перезавантажили його ```systemctl restart ics-dhcp-server```:
 ![](https://drive.google.com/uc?export=view&id=1A2VHx-GgW4aN2VIR1GyxrC9DnynDsUoq)
+
 і перевірили працездатність:
 ![](https://drive.google.com/uc?export=view&id=1GiQ3AY0lvlo_8e65kJGNByQUZSPJqmWx)
 
 - За допомогою DNSMASQ - завантажили, налаштували адреси і перезавантажили його ```systemctl restart dnsmsq```:
+
 ![](https://drive.google.com/uc?export=view&id=1K--raLKI6YFR_95hfJuIgWdU3Mf-4NhW)
-- перевірили працездатність:
+
+перевірили працездатність:
 ![](https://drive.google.com/uc?export=view&id=1NasJPe1F2bmNvlzesGgsriXXE3QofJdF)
 
 
