@@ -1,3 +1,4 @@
-/home/student/DevOps_online_Vinnytsia_2021Q4/m7/task7.1/DATA//firstfile.txt
-/home/student/DevOps_online_Vinnytsia_2021Q4/m7/task7.1/DATA//newfile.txt
-/home/student/DevOps_online_Vinnytsia_2021Q4/m7/task7.1/DATA//secondfile.txt
+/home/student/DevOps_online_Vinnytsia_2021Q4/m7/task7.1/DATA/5.txt
+/home/student/DevOps_online_Vinnytsia_2021Q4/m7/task7.1/DATA/firstfile.txt
+/home/student/DevOps_online_Vinnytsia_2021Q4/m7/task7.1/DATA/newfile.txt
+/home/student/DevOps_online_Vinnytsia_2021Q4/m7/task7.1/DATA/secondfile.txt
