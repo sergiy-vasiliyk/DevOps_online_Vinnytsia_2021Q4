@@ -20,3 +20,31 @@
 ![](https://drive.google.com/uc?export=view&id=1HWOjUg3wov2SjafuZDfEb3Pqx1LAxj6X)
 
 
+## C. Create a data backup script that takes the following data as parameters:
+### 1. Path to the syncing  directory.
+### 2. The path to the directory where the copies of the files will be stored.In case of adding new or deleting old files, the script must add a corresponding entry to the log file indicating the time, type of operation and file name. [The command to run the script must be added to crontab with a run frequency of one minute]
+
+##### Create the DATA directory with files:
+![](https://drive.google.com/uc?export=view&id=1sxZ8h3gQ5V6Ci8HrVWyQ4pXduIzEjHvN)
+
+##### Create the Backup directory:
+![](https://drive.google.com/uc?export=view&id=15Nld96b8bYyMSaXhJI74E3G6k5ERV0y0)
+
+##### Let's run our script our script:
+![](https://drive.google.com/uc?export=view&id=1AgQvA4JbAVE9CW8bTpYjU9r84Gv21a-W)
+
+##### Check the log.txt an list.txt files:
+![](https://drive.google.com/uc?export=view&id=1D_vlYr32BtqKR8bqhMyyT5UNDFHXpXhD)
+
+##### Сreate a new file, run our script and check how it works:
+![](https://drive.google.com/uc?export=view&id=1UWPilgnMFh2OCO-R3jdUuYRx4QjT2-5U)
+
+##### Add the script to the cron with every minute run:
+![](https://drive.google.com/uc?export=view&id=1hvDxwvg7OjnsH4-PRT7Sdfwa-VMC7kDO)
+
+##### Let's check the work of the cron:
+![](https://drive.google.com/uc?export=view&id=1G1zbZgb_dUi1ctZaKMtxfinzu-HXiRQJ)
+
+##### The backup works! Cool! Let's go back to the script:
+![](https://drive.google.com/uc?export=view&id=1-yWP8ryt6tgeu_va3Tfium6uI3j4Ko0g)
+
